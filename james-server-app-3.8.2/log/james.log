@@ -1,0 +1,468 @@
+02-Jul-2025 00:54:59.765 WARN [main] org.apache.james.app.spring.JamesAppSpringMain.main:50 - No authentication setted up for the JMX component. This expose you to local privilege escalation attacks risk. This can be done via the 'com.sun.management.jmxremote.password.file' system property.
+02-Jul-2025 00:54:59.813 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh:583 - Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@5f354bcf: startup date [Wed Jul 02 00:54:59 PKT 2025]; root of context hierarchy
+02-Jul-2025 00:55:02.180 INFO [main] org.apache.commons.beanutils.FluentPropertyBeanIntrospector.introspect:147 - Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+02-Jul-2025 00:55:02.857 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.init:87 - JamesMailStore init...
+02-Jul-2025 00:55:02.867 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests
+02-Jul-2025 00:55:02.869 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests
+02-Jul-2025 00:55:02.870 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests
+02-Jul-2025 00:55:06.470 INFO [main] org.apache.activemq.broker.BrokerService.<clinit>:281 - Loaded the Bouncy Castle security provider at position: 14
+02-Jul-2025 00:55:06.487 WARN [main] org.apache.activemq.broker.BrokerService.checkMemorySystemUsageLimits:2164 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 512 mb - resetting to 70% of maximum available: 358
+02-Jul-2025 00:55:06.546 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:669 - Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\KahaDB]
+02-Jul-2025 00:55:06.547 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:674 - Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\KahaDB]
+02-Jul-2025 00:55:06.560 INFO [main] org.apache.activemq.store.kahadb.KahaDBStore.doStart:210 - Starting KahaDBStore
+02-Jul-2025 00:55:06.561 INFO [main] org.apache.activemq.store.kahadb.MessageDatabase.open:460 - Opening MessageDatabase
+02-Jul-2025 00:55:06.675 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:677 - Starting Temp Data Store
+02-Jul-2025 00:55:06.675 INFO [main] org.apache.activemq.store.kahadb.plist.PListStoreImpl.doStart:371 - PListStore:[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\james\tmp_storage] started
+02-Jul-2025 00:55:06.676 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:691 - Starting Job Scheduler Store
+02-Jul-2025 00:55:06.677 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:703 - Persistence Adapter successfully started
+02-Jul-2025 00:55:06.810 INFO [main] org.apache.activemq.plugin.StatisticsBrokerPlugin.installPlugin:46 - Installing StaticsBroker
+02-Jul-2025 00:55:06.816 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:737 - Apache ActiveMQ 5.17.3 (james, broker) is starting
+02-Jul-2025 00:55:06.820 INFO [main] org.apache.activemq.plugin.StatisticsBroker.start:245 - Starting StatisticsBroker
+02-Jul-2025 00:55:06.824 INFO [main] org.apache.activemq.transport.TransportServerThreadSupport.doStart:69 - Listening for connections at: tcp://127.0.0.1:49862
+02-Jul-2025 00:55:06.825 INFO [main] org.apache.activemq.broker.TransportConnector.start:270 - Connector tcp://127.0.0.1:49862 started
+02-Jul-2025 00:55:06.826 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:764 - Apache ActiveMQ 5.17.3 (james, broker) started
+02-Jul-2025 00:55:06.826 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:765 - For help or more information please see: http://activemq.apache.org
+02-Jul-2025 00:55:06.847 INFO [main] org.apache.james.queue.activemq.EmbeddedActiveMQ.launchEmbeddedBroker:116 - Started embedded activeMq
+02-Jul-2025 00:55:06.936 INFO [main] org.apache.activemq.broker.TransportConnector.start:270 - Connector vm://james started
+02-Jul-2025 00:55:07.435 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:07.442 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+02-Jul-2025 00:55:07.443 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:07.444 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+02-Jul-2025 00:55:07.449 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:07.450 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+02-Jul-2025 00:55:07.451 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:07.453 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+02-Jul-2025 00:55:07.456 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@640c2749(config)->org.apache.james.mailrepository.file.FileMailRepository
+02-Jul-2025 00:55:08.135 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.137 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+02-Jul-2025 00:55:08.137 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.139 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+02-Jul-2025 00:55:08.142 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.143 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+02-Jul-2025 00:55:08.145 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.148 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+02-Jul-2025 00:55:08.149 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@640c2749(config)->org.apache.james.mailrepository.file.FileMailRepository
+02-Jul-2025 00:55:08.157 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.159 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+02-Jul-2025 00:55:08.160 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.165 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+02-Jul-2025 00:55:08.167 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.168 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+02-Jul-2025 00:55:08.169 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.171 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+02-Jul-2025 00:55:08.174 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@640c2749(config)->org.apache.james.mailrepository.file.FileMailRepository
+02-Jul-2025 00:55:08.193 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.195 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+02-Jul-2025 00:55:08.197 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.198 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+02-Jul-2025 00:55:08.198 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.200 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+02-Jul-2025 00:55:08.200 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.202 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+02-Jul-2025 00:55:08.202 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@640c2749(config)->org.apache.james.mailrepository.file.FileMailRepository
+02-Jul-2025 00:55:08.210 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.210 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+02-Jul-2025 00:55:08.212 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.213 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+02-Jul-2025 00:55:08.216 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+02-Jul-2025 00:55:08.218 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+02-Jul-2025 00:55:08.218 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+02-Jul-2025 00:55:08.220 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+02-Jul-2025 00:55:08.221 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@640c2749(config)->org.apache.james.mailrepository.file.FileMailRepository
+02-Jul-2025 00:55:11.790 INFO [main] org.apache.james.app.spring.JamesAppSpringMain.main:61 - Apache James Server is successfully started in 12023 milliseconds.
+02-Jul-2025 00:55:43.386 INFO [Thread-8] org.springframework.context.support.AbstractApplicationContext.doClose:985 - Closing org.apache.james.container.spring.context.JamesServerApplicationContext@5f354bcf: startup date [Wed Jul 02 00:54:59 PKT 2025]; root of context hierarchy
+23-Jul-2025 14:49:07.644 WARN [main] org.apache.james.app.spring.JamesAppSpringMain.main:50 - No authentication setted up for the JMX component. This expose you to local privilege escalation attacks risk. This can be done via the 'com.sun.management.jmxremote.password.file' system property.
+23-Jul-2025 14:49:07.703 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh:583 - Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@5f354bcf: startup date [Wed Jul 23 14:49:07 PKT 2025]; root of context hierarchy
+23-Jul-2025 14:49:09.940 INFO [main] org.apache.commons.beanutils.FluentPropertyBeanIntrospector.introspect:147 - Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+23-Jul-2025 14:49:10.520 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.init:87 - JamesMailStore init...
+23-Jul-2025 14:49:10.529 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests
+23-Jul-2025 14:49:10.530 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests
+23-Jul-2025 14:49:10.531 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests
+23-Jul-2025 14:49:11.390 WARN [main] org.springframework.context.support.AbstractApplicationContext.refresh:550 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authenticator' defined in class path resource [META-INF/org/apache/james/spring-mailbox-authenticator.xml]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usersrepository': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'domainlist': Initialization of bean failed; nested exception is org.springframework.beans.FatalBeanException: Unable to execute lifecycle method on beandomainlist; nested exception is <openjpa-3.2.0-r6f721f6 nonfatal general error> org.apache.openjpa.persistence.PersistenceException: There were errors initializing your configuration: <openjpa-3.2.0-r6f721f6 fatal user error> org.apache.openjpa.util.UserException: A connection could not be obtained for driver class "null" and URL "null".  You may have specified an invalid URL.
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.newConnectException(DataSourceFactory.java:271)
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.installDBDictionary(DataSourceFactory.java:257)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getConnectionFactory(JDBCConfigurationImpl.java:807)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.openjpa.lib.conf.ConfigurationImpl.instantiateAll(ConfigurationImpl.java:331)
+	at org.apache.openjpa.conf.OpenJPAConfigurationImpl.instantiateAll(OpenJPAConfigurationImpl.java:1963)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.makeReadOnly(AbstractBrokerFactory.java:665)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.newBroker(AbstractBrokerFactory.java:207)
+	at org.apache.openjpa.kernel.DelegatingBrokerFactory.newBroker(DelegatingBrokerFactory.java:166)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.doCreateEM(EntityManagerFactoryImpl.java:282)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:201)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:188)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:178)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:495)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:671)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.createEntityManager(Unknown Source)
+	at org.apache.james.domainlist.jpa.JPADomainList.containsDomainInternal(JPADomainList.java:98)
+	at org.apache.james.domainlist.lib.AbstractDomainList.containsDomain(AbstractDomainList.java:179)
+	at org.apache.james.domainlist.lib.AbstractDomainList.setDefaultDomain(AbstractDomainList.java:152)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configureDefaultDomain(AbstractDomainList.java:134)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configure(AbstractDomainList.java:103)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configure(AbstractDomainList.java:88)
+	at org.apache.james.container.spring.lifecycle.ConfigurableBeanPostProcessor.executeLifecycleMethodBeforeInit(ConfigurableBeanPostProcessor.java:45)
+	at org.apache.james.container.spring.lifecycle.ConfigurableBeanPostProcessor.executeLifecycleMethodBeforeInit(ConfigurableBeanPostProcessor.java:29)
+	at org.apache.james.container.spring.lifecycle.AbstractLifecycleBeanPostProcessor.postProcessBeforeInitialization(AbstractLifecycleBeanPostProcessor.java:56)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:407)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1622)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:43)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:81)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:57)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:125)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:94)
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.installDBDictionary(DataSourceFactory.java:249)
+	... 70 more
+Caused by: java.sql.SQLException: Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 75 more
+Caused by: ERROR XJ040: Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 91 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\var\store\derby.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 88 more
+
+<openjpa-3.2.0-r6f721f6 fatal user error> org.apache.openjpa.util.UserException: A connection could not be obtained for driver class "null" and URL "null".  You may have specified an invalid URL.
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.newConnectException(DataSourceFactory.java:271)
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.installDBDictionary(DataSourceFactory.java:257)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getConnectionFactory(JDBCConfigurationImpl.java:807)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getDataSource(JDBCConfigurationImpl.java:955)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getDataSource2(JDBCConfigurationImpl.java:998)
+	at org.apache.openjpa.jdbc.schema.SchemaGenerator.<init>(SchemaGenerator.java:86)
+	at org.apache.openjpa.jdbc.schema.LazySchemaFactory.setConfiguration(LazySchemaFactory.java:214)
+	at org.apache.openjpa.lib.conf.Configurations.configureInstance(Configurations.java:499)
+	at org.apache.openjpa.lib.conf.Configurations.configureInstance(Configurations.java:456)
+	at org.apache.openjpa.lib.conf.PluginValue.instantiate(PluginValue.java:123)
+	at org.apache.openjpa.lib.conf.ObjectValue.instantiate(ObjectValue.java:84)
+	at org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl.getSchemaFactoryInstance(JDBCConfigurationImpl.java:715)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.openjpa.lib.conf.ConfigurationImpl.instantiateAll(ConfigurationImpl.java:331)
+	at org.apache.openjpa.conf.OpenJPAConfigurationImpl.instantiateAll(OpenJPAConfigurationImpl.java:1963)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.makeReadOnly(AbstractBrokerFactory.java:665)
+	at org.apache.openjpa.kernel.AbstractBrokerFactory.newBroker(AbstractBrokerFactory.java:207)
+	at org.apache.openjpa.kernel.DelegatingBrokerFactory.newBroker(DelegatingBrokerFactory.java:166)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.doCreateEM(EntityManagerFactoryImpl.java:282)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:201)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:188)
+	at org.apache.openjpa.persistence.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:178)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:495)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:671)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.createEntityManager(Unknown Source)
+	at org.apache.james.domainlist.jpa.JPADomainList.containsDomainInternal(JPADomainList.java:98)
+	at org.apache.james.domainlist.lib.AbstractDomainList.containsDomain(AbstractDomainList.java:179)
+	at org.apache.james.domainlist.lib.AbstractDomainList.setDefaultDomain(AbstractDomainList.java:152)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configureDefaultDomain(AbstractDomainList.java:134)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configure(AbstractDomainList.java:103)
+	at org.apache.james.domainlist.lib.AbstractDomainList.configure(AbstractDomainList.java:88)
+	at org.apache.james.container.spring.lifecycle.ConfigurableBeanPostProcessor.executeLifecycleMethodBeforeInit(ConfigurableBeanPostProcessor.java:45)
+	at org.apache.james.container.spring.lifecycle.ConfigurableBeanPostProcessor.executeLifecycleMethodBeforeInit(ConfigurableBeanPostProcessor.java:29)
+	at org.apache.james.container.spring.lifecycle.AbstractLifecycleBeanPostProcessor.postProcessBeforeInitialization(AbstractLifecycleBeanPostProcessor.java:56)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:407)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1622)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.context.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:43)
+	at org.apache.james.app.spring.JamesAppSpringMain.init(JamesAppSpringMain.java:81)
+	at org.apache.james.app.spring.JamesAppSpringMain.main(JamesAppSpringMain.java:57)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.openjpa.lib.jdbc.DelegatingDataSource.getConnection(DelegatingDataSource.java:125)
+	at org.apache.openjpa.lib.jdbc.DecoratingDataSource.getConnection(DecoratingDataSource.java:94)
+	at org.apache.openjpa.jdbc.schema.DataSourceFactory.installDBDictionary(DataSourceFactory.java:249)
+	... 79 more
+Caused by: java.sql.SQLException: Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 84 more
+Caused by: ERROR XJ040: Failed to start database '../var/store/derby' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 100 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\var\store\derby.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 97 more
+
+26-Jul-2025 18:18:35.106 WARN [main] org.apache.james.app.spring.JamesAppSpringMain.main:50 - No authentication setted up for the JMX component. This expose you to local privilege escalation attacks risk. This can be done via the 'com.sun.management.jmxremote.password.file' system property.
+26-Jul-2025 18:18:35.180 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh:583 - Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@5f354bcf: startup date [Sat Jul 26 18:18:35 PKT 2025]; root of context hierarchy
+26-Jul-2025 18:18:37.986 INFO [main] org.apache.commons.beanutils.FluentPropertyBeanIntrospector.introspect:147 - Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+26-Jul-2025 18:18:38.781 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.init:87 - JamesMailStore init...
+26-Jul-2025 18:18:38.852 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests
+26-Jul-2025 18:18:38.854 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests
+26-Jul-2025 18:18:38.855 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:141 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests
+26-Jul-2025 18:18:42.758 INFO [main] org.apache.activemq.broker.BrokerService.<clinit>:281 - Loaded the Bouncy Castle security provider at position: 14
+26-Jul-2025 18:18:42.783 WARN [main] org.apache.activemq.broker.BrokerService.checkMemorySystemUsageLimits:2164 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 512 mb - resetting to 70% of maximum available: 358
+26-Jul-2025 18:18:42.818 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:669 - Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\KahaDB]
+26-Jul-2025 18:18:42.819 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:674 - Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\KahaDB]
+26-Jul-2025 18:18:42.847 INFO [main] org.apache.activemq.store.kahadb.KahaDBStore.doStart:210 - Starting KahaDBStore
+26-Jul-2025 18:18:42.848 INFO [main] org.apache.activemq.store.kahadb.MessageDatabase.open:460 - Opening MessageDatabase
+26-Jul-2025 18:18:42.950 INFO [KahaDB Index Free Page Recovery] org.apache.activemq.store.kahadb.disk.page.PageFile.recoverFreePages:461 - Page File: ..\var\store\activemq\brokers\KahaDB\db.data. Recovering pageFile free list due to prior unclean shutdown..
+26-Jul-2025 18:18:42.957 INFO [main] org.apache.activemq.store.kahadb.MessageDatabase$Metadata.read:194 - KahaDB is version 7
+26-Jul-2025 18:18:42.972 INFO [KahaDB Index Free Page Recovery] org.apache.activemq.store.kahadb.disk.page.PageFile.recoverFreePages:482 - Page File: ..\var\store\activemq\brokers\KahaDB\db.data. Recovered pageFile free list of size: 0
+26-Jul-2025 18:18:43.089 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:677 - Starting Temp Data Store
+26-Jul-2025 18:18:43.090 INFO [main] org.apache.activemq.store.kahadb.plist.PListStoreImpl.doStart:371 - PListStore:[D:\Downloads\james-server-spring-app-3.8.2-app\james-server-spring-app-3.8.2\bin\..\var\store\activemq\brokers\james\tmp_storage] started
+26-Jul-2025 18:18:43.090 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:691 - Starting Job Scheduler Store
+26-Jul-2025 18:18:43.091 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:703 - Persistence Adapter successfully started
+26-Jul-2025 18:18:43.268 INFO [main] org.apache.activemq.plugin.StatisticsBrokerPlugin.installPlugin:46 - Installing StaticsBroker
+26-Jul-2025 18:18:43.277 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:737 - Apache ActiveMQ 5.17.3 (james, broker) is starting
+26-Jul-2025 18:18:43.345 INFO [main] org.apache.activemq.plugin.StatisticsBroker.start:245 - Starting StatisticsBroker
+26-Jul-2025 18:18:43.350 INFO [main] org.apache.activemq.transport.TransportServerThreadSupport.doStart:69 - Listening for connections at: tcp://127.0.0.1:52608
+26-Jul-2025 18:18:43.350 INFO [main] org.apache.activemq.broker.TransportConnector.start:270 - Connector tcp://127.0.0.1:52608 started
+26-Jul-2025 18:18:43.351 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:764 - Apache ActiveMQ 5.17.3 (james, broker) started
+26-Jul-2025 18:18:43.352 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:765 - For help or more information please see: http://activemq.apache.org
+26-Jul-2025 18:18:43.358 INFO [main] org.apache.james.queue.activemq.EmbeddedActiveMQ.launchEmbeddedBroker:116 - Started embedded activeMq
+26-Jul-2025 18:18:43.502 INFO [main] org.apache.activemq.broker.TransportConnector.start:270 - Connector vm://james started
+26-Jul-2025 18:18:44.249 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:44.259 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+26-Jul-2025 18:18:44.260 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:44.261 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+26-Jul-2025 18:18:44.264 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:44.266 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+26-Jul-2025 18:18:44.266 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:44.267 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+26-Jul-2025 18:18:44.269 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@676beb9f(config)->org.apache.james.mailrepository.file.FileMailRepository
+26-Jul-2025 18:18:45.037 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.038 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+26-Jul-2025 18:18:45.039 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.040 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+26-Jul-2025 18:18:45.041 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.042 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+26-Jul-2025 18:18:45.043 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.044 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+26-Jul-2025 18:18:45.045 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@676beb9f(config)->org.apache.james.mailrepository.file.FileMailRepository
+26-Jul-2025 18:18:45.051 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.052 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+26-Jul-2025 18:18:45.054 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.056 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+26-Jul-2025 18:18:45.057 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.059 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+26-Jul-2025 18:18:45.060 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.061 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+26-Jul-2025 18:18:45.061 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@676beb9f(config)->org.apache.james.mailrepository.file.FileMailRepository
+26-Jul-2025 18:18:45.076 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.077 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+26-Jul-2025 18:18:45.078 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.079 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+26-Jul-2025 18:18:45.080 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.081 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+26-Jul-2025 18:18:45.082 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.083 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+26-Jul-2025 18:18:45.085 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@676beb9f(config)->org.apache.james.mailrepository.file.FileMailRepository
+26-Jul-2025 18:18:45.089 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.090 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+26-Jul-2025 18:18:45.091 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.092 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+26-Jul-2025 18:18:45.093 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+26-Jul-2025 18:18:45.094 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+26-Jul-2025 18:18:45.095 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+26-Jul-2025 18:18:45.096 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+26-Jul-2025 18:18:45.097 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:210 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@676beb9f(config)->org.apache.james.mailrepository.file.FileMailRepository
+26-Jul-2025 18:18:48.993 INFO [main] org.apache.james.app.spring.JamesAppSpringMain.main:61 - Apache James Server is successfully started in 13883 milliseconds.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/dhl_red"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- DHL Text -->
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M25,35 L35,35 L35,40 L30,40 L30,55 L35,55 L35,60 L25,60 Z" />
+
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M40,35 L45,35 L45,55 L55,55 L55,60 L40,60 Z" />
+
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M60,35 L75,35 L75,40 L65,40 L65,45 L73,45 L73,50 L65,50 L65,55 L75,55 L75,60 L60,60 Z" />
+
+    <!-- Visitor Icon -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M54,70 C56,70 58,72 58,74 C58,76 56,78 54,78 C52,78 50,76 50,74 C50,72 52,70 54,70 Z" />
+
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M54,80 C59,80 63,82 63,85 L45,85 C45,82 49,80 54,80 Z" />
+
+</vector>

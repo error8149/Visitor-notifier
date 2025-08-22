@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Overrides -->
+    <color name="primary_background">@color/primary_background_dark</color>
+    <color name="secondary_background">@color/secondary_background_dark</color>
+    <color name="surface_color">#1E1E1E</color>
+    <color name="card_background">#2C2C2C</color>
+
+    <!-- Text Colors for Dark Mode -->
+    <color name="text_primary">@color/text_primary_dark</color>
+    <color name="text_secondary">@color/text_secondary_dark</color>
+    <color name="text_light">@color/text_light_dark</color>
+
+    <!-- Accent Colors for Dark Mode -->
+    <color name="accent_light">#3E2723</color>
+    <color name="accent_border">#424242</color>
+
+    <!-- Status Colors for Dark Mode -->
+    <color name="success_light">#1B5E20</color>
+    <color name="error_light">#B71C1C</color>
+    <color name="warning_light">#E65100</color>
+</resources>

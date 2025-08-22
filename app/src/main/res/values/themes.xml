@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Light Mode -->
+    <style name="Theme.DHLVisitorNotification" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/dhl_red</item>
+        <item name="colorPrimaryDark">@color/dhl_red_dark</item>
+        <item name="colorAccent">@color/dhl_yellow</item>
+        <item name="android:windowBackground">@color/primary_background</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <!-- Splash theme for Light Mode -->
+    <style name="Theme.DHLVisitorNotification.Splash" parent="Theme.DHLVisitorNotification">
+        <item name="android:windowBackground">@color/primary_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/dhl_red</item>
+        <item name="android:navigationBarColor">@color/primary_background</item>
+    </style>
+</resources>

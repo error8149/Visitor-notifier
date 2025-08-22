@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">DHL Visitor Notification</string>
+    <string name="app_tagline">Professional Visitor Management System</string>
+
+    <!-- Splash Screen -->
+    <string name="loading_message">Loading DHL Visitor System…</string>
+    <string name="professional_visitor_management">Professional Visitor Management</string>
+
+    <!-- Main Screen -->
+    <string name="welcome_message">Welcome to DHL</string>
+    <string name="scan_prompt">Scan visitor QR code or fill form manually</string>
+    <string name="fill_form">Register New Visitor</string>
+    <string name="secure_visitor_registration">Secure Visitor Registration System</string>
+    <string name="manual_registration">Manual Registration</string>
+    <string name="no_qr_code_description">Don\'t have a QR code? Fill out the form manually</string>
+
+    <!-- Form Fields -->
+    <string name="first_name">First Name *</string>
+    <string name="last_name">Last Name *</string>
+    <string name="company_name">Company Name (Optional)</string>
+    <string name="phone_number">Phone Number *</string>
+    <string name="email">Email Address *</string>
+    <string name="reason_for_visit">Purpose of Visit *</string>
+    <string name="next_button">Next</string>
+
+    <!-- Agreement -->
+    <string name="agreement_title">Visitor Agreement</string>
+    <string name="agreement_points">DHL Visitor Agreement\n\nBy signing this agreement, you agree to the following terms:\n\n🔒 Security and Safety\n• Follow all safety protocols while on premises\n• Wear provided visitor badge at all times\n• Report to reception when leaving\n\n📷 Confidentiality\n• Not take photographs without permission\n• Not disclose confidential information\n\n📋 Compliance\n• Follow all emergency procedures\n• Comply with company policies\n\n🛡️ Data Protection\n• Information used for security purposes only\n• Data handled per DHL privacy policy\n\nPlease check the box below to confirm your agreement.</string>
+    <string name="agreement_checkbox">I accept the terms of the visitor agreement</string>
+
+    <!-- Signature -->
+    <string name="signature_title">Digital Signature</string>
+    <string name="signature_instruction">Please sign in the box above using your finger</string>
+    <string name="please_sign_below">Please sign below:</string>
+    <string name="clear_signature">Clear</string>
+    <string name="send_notification">Send Notification</string>
+
+    <!-- Thank You -->
+    <string name="thank_you_message">Thank You for Visiting DHL!</string>
+    <string name="thank_you_detail">Your registration has been completed successfully.</string>
+    <string name="reception_notification">The reception team has been notified of your arrival.</string>
+    <string name="back_to_home">Register Another Visitor</string>
+    <string name="welcome_visitor_template">✅ Welcome, %1$s!</string>
+    <string name="registration_completed">Your visitor registration has been completed successfully.</string>
+    <string name="proceed_waiting_area">Please proceed to the designated waiting area.</string>
+
+    <!-- Common -->
+    <string name="dhl_logo_desc">DHL Logo</string>
+    <string name="success_icon_desc">Success Icon</string>
+    <string name="loading">Loading…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>

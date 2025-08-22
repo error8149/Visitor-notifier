@@ -1,0 +1,173 @@
+02-Jul-2025 00:55:07.974 INFO [main] org.apache.james.transport.matchers.AbstractNetworkMatcher.init:59 - Authorized addresses: [127.0.0.1/255.255.255.255]
+02-Jul-2025 00:55:08.400 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - SMTP Service bound to: 0.0.0.0:25
+02-Jul-2025 00:55:08.412 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - SMTP Service is running on: hp
+02-Jul-2025 00:55:08.412 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - SMTP Service handler hello name is: hp
+02-Jul-2025 00:55:08.414 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - SMTP Service handler connection timeout is: 360
+02-Jul-2025 00:55:08.423 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - SMTP Service connection backlog is: 200
+02-Jul-2025 00:55:08.860 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init SMTP Service done
+02-Jul-2025 00:55:08.876 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:147 - LMTP Service disabled by configuration
+02-Jul-2025 00:55:08.886 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - POP3 Service bound to: 0.0.0.0:110
+02-Jul-2025 00:55:08.886 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - POP3 Service is running on: hp
+02-Jul-2025 00:55:08.887 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - POP3 Service handler hello name is: hp
+02-Jul-2025 00:55:08.888 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - POP3 Service handler connection timeout is: 1200
+02-Jul-2025 00:55:08.889 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - POP3 Service connection backlog is: 200
+02-Jul-2025 00:55:09.019 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init POP3 Service done
+02-Jul-2025 00:55:09.334 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - IMAP Service bound to: 0.0.0.0:143
+02-Jul-2025 00:55:09.334 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - IMAP Service is running on: hp
+02-Jul-2025 00:55:09.336 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - IMAP Service handler hello name is: hp
+02-Jul-2025 00:55:09.337 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - IMAP Service handler connection timeout is: 300
+02-Jul-2025 00:55:09.337 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - IMAP Service connection backlog is: 200
+02-Jul-2025 00:55:09.388 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init IMAP Service done
+02-Jul-2025 00:55:09.407 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:147 - Manage Sieve Service disabled by configuration
+26-Jul-2025 18:18:44.823 INFO [main] org.apache.james.transport.matchers.AbstractNetworkMatcher.init:59 - Authorized addresses: [127.0.0.1/255.255.255.255]
+26-Jul-2025 18:18:45.405 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - SMTP Service bound to: 0.0.0.0:25
+26-Jul-2025 18:18:45.420 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - SMTP Service is running on: hp
+26-Jul-2025 18:18:45.421 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - SMTP Service handler hello name is: hp
+26-Jul-2025 18:18:45.421 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - SMTP Service handler connection timeout is: 360
+26-Jul-2025 18:18:45.422 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - SMTP Service connection backlog is: 200
+26-Jul-2025 18:18:45.934 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init SMTP Service done
+26-Jul-2025 18:18:45.950 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:147 - LMTP Service disabled by configuration
+26-Jul-2025 18:18:45.960 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - POP3 Service bound to: 0.0.0.0:110
+26-Jul-2025 18:18:45.961 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - POP3 Service is running on: hp
+26-Jul-2025 18:18:45.962 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - POP3 Service handler hello name is: hp
+26-Jul-2025 18:18:45.963 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - POP3 Service handler connection timeout is: 1200
+26-Jul-2025 18:18:45.964 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - POP3 Service connection backlog is: 200
+26-Jul-2025 18:18:46.099 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init POP3 Service done
+26-Jul-2025 18:18:46.341 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:168 - IMAP Service bound to: 0.0.0.0:143
+26-Jul-2025 18:18:46.342 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:316 - IMAP Service is running on: hp
+26-Jul-2025 18:18:46.342 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configureHelloName:328 - IMAP Service handler hello name is: hp
+26-Jul-2025 18:18:46.343 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:187 - IMAP Service handler connection timeout is: 300
+26-Jul-2025 18:18:46.344 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:191 - IMAP Service connection backlog is: 200
+26-Jul-2025 18:18:46.398 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.init:251 - Init IMAP Service done
+26-Jul-2025 18:18:46.422 INFO [main] org.apache.james.protocols.lib.netty.AbstractConfigurableAsyncServer.configure:147 - Manage Sieve Service disabled by configuration
+26-Jul-2025 18:19:06.537 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:19:07.369 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52641
+26-Jul-2025 18:19:07.577 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:19:07.860 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52646
+26-Jul-2025 18:19:42.596 INFO [smtpserver-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:19:42.896 INFO [smtpserver-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52688
+26-Jul-2025 18:19:43.563 ERROR [spooler-4] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753535982687-b82efadf-ec45-42db-9682-01bb961df031 with sender user2@localhost in folder Sent
+26-Jul-2025 18:19:43.584 INFO [spooler-4] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user1@localhost>
+26-Jul-2025 18:19:43.679 INFO [parallel-2] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753535982687-b82efadf-ec45-42db-9682-01bb961df031 with messageId <42857614.1.1753535981687@localhost> successfully from user2@localhost to <user1@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=203, messageId=DefaultMessageId{}, uid=MessageUid{uid=16}}
+26-Jul-2025 18:21:53.301 INFO [smtpserver-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:21:53.349 INFO [smtpserver-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52740
+26-Jul-2025 18:21:53.414 ERROR [spooler-9] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753536113326-ba4169c1-eab4-4d5b-abbd-76b9135252f0 with sender user2@localhost in folder Sent
+26-Jul-2025 18:21:53.421 INFO [spooler-9] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user1@localhost>
+26-Jul-2025 18:21:53.474 INFO [parallel-4] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753536113326-ba4169c1-eab4-4d5b-abbd-76b9135252f0 with messageId <50040528.0.1753536112411@localhost> successfully from user2@localhost to <user1@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=203, messageId=DefaultMessageId{}, uid=MessageUid{uid=17}}
+26-Jul-2025 18:29:06.318 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:29:06.378 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52963
+26-Jul-2025 18:29:06.387 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:29:06.548 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52964
+26-Jul-2025 18:30:02.456 INFO [smtpserver-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:30:02.486 INFO [smtpserver-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:52979
+26-Jul-2025 18:30:02.538 ERROR [spooler-16] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753536602474-c8f77082-e4ba-4d64-8978-53fe5c2f053f with sender user2@localhost in folder Sent
+26-Jul-2025 18:30:02.543 INFO [spooler-16] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user1@localhost>
+26-Jul-2025 18:30:02.592 INFO [parallel-6] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753536602474-c8f77082-e4ba-4d64-8978-53fe5c2f053f with messageId <57925251.0.1753536601573@localhost> successfully from user2@localhost to <user1@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=203, messageId=DefaultMessageId{}, uid=MessageUid{uid=18}}
+26-Jul-2025 18:39:08.414 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:39:08.440 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54028
+26-Jul-2025 18:39:08.445 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:39:08.548 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54029
+26-Jul-2025 18:47:31.696 INFO [smtpserver-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:47:31.730 INFO [smtpserver-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54395
+26-Jul-2025 18:47:31.782 ERROR [spooler-22] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753537651714-b682f968-7852-4e60-a953-052828e92745 with sender user2@localhost in folder Sent
+26-Jul-2025 18:47:31.787 INFO [spooler-22] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user1@localhost>
+26-Jul-2025 18:47:31.827 INFO [parallel-8] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753537651714-b682f968-7852-4e60-a953-052828e92745 with messageId <53752970.0.1753537650792@localhost> successfully from user2@localhost to <user1@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=203, messageId=DefaultMessageId{}, uid=MessageUid{uid=19}}
+26-Jul-2025 18:49:12.337 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:49:12.369 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54445
+26-Jul-2025 18:49:12.375 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:49:12.477 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54446
+26-Jul-2025 18:59:14.592 INFO [pop3server-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:59:14.633 INFO [pop3server-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54812
+26-Jul-2025 18:59:14.641 INFO [pop3server-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 18:59:14.688 INFO [pop3server-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:54813
+26-Jul-2025 19:09:16.962 INFO [pop3server-10] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:09:17.018 INFO [pop3server-10] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55174
+26-Jul-2025 19:09:17.021 INFO [pop3server-11] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:09:17.043 INFO [pop3server-11] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55175
+26-Jul-2025 19:19:21.062 INFO [pop3server-12] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:19:21.127 INFO [pop3server-12] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55662
+26-Jul-2025 19:19:21.131 INFO [pop3server-13] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:19:21.149 INFO [pop3server-13] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55663
+26-Jul-2025 19:25:42.891 INFO [smtpserver-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:25:42.944 INFO [smtpserver-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55838
+26-Jul-2025 19:25:43.038 ERROR [spooler-32] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753539942905-aab91d50-4c9a-4429-9d95-153b4d252301 with sender user2@localhost in folder Sent
+26-Jul-2025 19:25:43.522 INFO [RemoteDelivery-Process-38] org.apache.james.transport.mailets.remote.delivery.MailDelivrer.handleNoTargetServer:277 - No mail server found for: example.com
+26-Jul-2025 19:25:43.675 INFO [spooler-32] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+26-Jul-2025 19:25:43.727 INFO [parallel-10] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail il1753539942905-aab91d50-4c9a-4429-9d95-153b4d252301-to-example.com-!9676362 with messageId <1583727861.1.1753539943628@hp> successfully from <> to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=1}}
+26-Jul-2025 19:29:22.035 INFO [pop3server-14] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:29:22.089 INFO [pop3server-14] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55949
+26-Jul-2025 19:29:22.092 INFO [pop3server-15] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:29:22.154 INFO [pop3server-15] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:55950
+26-Jul-2025 19:39:23.981 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:39:24.051 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:56779
+26-Jul-2025 19:39:24.055 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:39:24.086 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:56780
+26-Jul-2025 19:49:24.177 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:49:24.238 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57117
+26-Jul-2025 19:49:24.242 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:49:24.275 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57118
+26-Jul-2025 19:50:33.685 INFO [smtpserver-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:50:33.751 INFO [smtpserver-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57177
+26-Jul-2025 19:50:33.877 ERROR [spooler-43] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753541433702-57ea5e7c-4a5b-4cbf-a9f2-7604104bf397 with sender user1@localhost in folder Sent
+26-Jul-2025 19:50:33.882 INFO [spooler-43] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+26-Jul-2025 19:50:33.920 INFO [parallel-12] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753541433702-57ea5e7c-4a5b-4cbf-a9f2-7604104bf397 with messageId <116487736.1.1753541432784@localhost> successfully from user1@localhost to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=2}}
+26-Jul-2025 19:59:25.143 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:59:25.243 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57482
+26-Jul-2025 19:59:25.258 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 19:59:25.371 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57484
+26-Jul-2025 20:09:25.146 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:09:25.183 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57836
+26-Jul-2025 20:09:25.185 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:09:25.208 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:57838
+26-Jul-2025 20:19:28.172 INFO [pop3server-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:19:28.199 INFO [pop3server-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:58181
+26-Jul-2025 20:19:28.201 INFO [pop3server-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:19:28.217 INFO [pop3server-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:58182
+26-Jul-2025 20:29:34.321 INFO [pop3server-10] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:29:34.362 INFO [pop3server-10] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:60867
+26-Jul-2025 20:29:34.365 INFO [pop3server-11] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:29:34.387 INFO [pop3server-11] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:60868
+26-Jul-2025 20:39:35.614 INFO [pop3server-12] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:39:35.653 INFO [pop3server-12] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61221
+26-Jul-2025 20:39:35.656 INFO [pop3server-13] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:39:35.690 INFO [pop3server-13] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61222
+26-Jul-2025 20:42:40.030 INFO [smtpserver-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:42:40.124 INFO [smtpserver-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61318
+26-Jul-2025 20:42:40.202 ERROR [spooler-53] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753544560052-2cb383dc-43ad-4df2-916d-6181f69e25fa with sender user1@localhost in folder Sent
+26-Jul-2025 20:42:40.207 INFO [spooler-53] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+26-Jul-2025 20:42:40.258 INFO [parallel-2] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753544560052-2cb383dc-43ad-4df2-916d-6181f69e25fa with messageId <232071797.1.1753544560244@localhost> successfully from user1@localhost to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=3}}
+26-Jul-2025 20:43:58.345 INFO [smtpserver-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:43:58.401 INFO [smtpserver-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61342
+26-Jul-2025 20:43:58.472 ERROR [spooler-59] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753544638363-0eb1104d-463b-4bf2-808b-90c548f26489 with sender user1@localhost in folder Sent
+26-Jul-2025 20:43:58.480 INFO [spooler-59] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+26-Jul-2025 20:43:58.531 INFO [parallel-4] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753544638363-0eb1104d-463b-4bf2-808b-90c548f26489 with messageId <25449226.3.1753544638594@localhost> successfully from user1@localhost to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=4}}
+26-Jul-2025 20:49:35.915 INFO [pop3server-14] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:49:36.021 INFO [pop3server-14] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61525
+26-Jul-2025 20:49:36.040 INFO [pop3server-15] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:49:36.094 INFO [pop3server-15] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61526
+26-Jul-2025 20:49:50.417 INFO [smtpserver-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:49:50.472 INFO [smtpserver-8] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61531
+26-Jul-2025 20:49:50.517 ERROR [spooler-66] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753544990432-cefc1912-ccd5-4d17-9f50-f6432e350ae0 with sender user1@localhost in folder Sent
+26-Jul-2025 20:49:50.522 INFO [spooler-66] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+26-Jul-2025 20:49:50.556 INFO [parallel-6] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753544990432-cefc1912-ccd5-4d17-9f50-f6432e350ae0 with messageId <46301626.1.1753544990645@localhost> successfully from user1@localhost to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=5}}
+26-Jul-2025 20:59:36.768 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:59:36.877 INFO [pop3server-0] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61768
+26-Jul-2025 20:59:36.896 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+26-Jul-2025 20:59:36.961 INFO [pop3server-1] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61769
+28-Jul-2025 16:33:49.791 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:33:49.979 INFO [pop3server-2] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61965
+28-Jul-2025 16:33:50.017 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:33:50.237 INFO [pop3server-3] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:61969
+28-Jul-2025 16:43:49.776 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:43:49.827 INFO [pop3server-4] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:63652
+28-Jul-2025 16:43:49.832 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:43:49.879 INFO [pop3server-5] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:63653
+28-Jul-2025 16:49:35.379 INFO [smtpserver-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:49:35.578 INFO [smtpserver-9] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:63972
+28-Jul-2025 16:49:35.782 ERROR [spooler-74] org.apache.james.transport.mailets.ToSenderFolder.doService:94 - Local delivery with ToSenderFolder mailet for mail Mail1753703375448-96165532-e105-457b-b4df-f19468988b2b with sender user1@localhost in folder Sent
+28-Jul-2025 16:49:35.803 INFO [spooler-74] org.apache.james.transport.mailets.jsieve.delivery.SieveExecutor.sieveMessage:121 - Can not locate SIEVE script for user <user2@localhost>
+28-Jul-2025 16:49:35.873 INFO [parallel-8] org.apache.james.transport.mailets.delivery.SimpleMailStore.lambda$storeMail$0:103 - Local delivered mail Mail1753703375448-96165532-e105-457b-b4df-f19468988b2b with messageId <11494231.1.1753703374241@localhost> successfully from user1@localhost to <user2@localhost> in folder INBOX with composedMessageId ComposedMessageId{mailboxId=201, messageId=DefaultMessageId{}, uid=MessageUid{uid=6}}
+28-Jul-2025 16:53:49.809 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:53:49.968 INFO [pop3server-6] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:64735
+28-Jul-2025 16:53:49.992 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelActive:103 - Connection established from 127.0.0.1
+28-Jul-2025 16:53:50.091 INFO [pop3server-7] org.apache.james.protocols.netty.BasicChannelInboundHandler.channelInactive:143 - Connection closed for 127.0.0.1/127.0.0.1:64736

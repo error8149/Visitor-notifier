@@ -1,0 +1,19 @@
+02-Jul-2025 00:55:02.981 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:144 - Autodiscovery is enabled - trying to discover your system's DNS Servers
+02-Jul-2025 00:55:03.015 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /103.53.162.162:53
+02-Jul-2025 00:55:03.015 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /103.174.4.174:53
+02-Jul-2025 00:55:03.019 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 103.53.162.162
+02-Jul-2025 00:55:03.019 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 103.174.4.174
+02-Jul-2025 00:55:03.101 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:234 - Registered cache, resolver and search paths as DNSJava defaults
+23-Jul-2025 14:49:10.701 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:144 - Autodiscovery is enabled - trying to discover your system's DNS Servers
+23-Jul-2025 14:49:10.730 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /103.53.162.162:53
+23-Jul-2025 14:49:10.731 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /103.174.4.174:53
+23-Jul-2025 14:49:10.735 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 103.53.162.162
+23-Jul-2025 14:49:10.736 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 103.174.4.174
+23-Jul-2025 14:49:10.803 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:234 - Registered cache, resolver and search paths as DNSJava defaults
+26-Jul-2025 18:18:38.986 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:144 - Autodiscovery is enabled - trying to discover your system's DNS Servers
+26-Jul-2025 18:18:39.018 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /8.8.8.8:53
+26-Jul-2025 18:18:39.018 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:149 - Adding autodiscovered server /8.8.4.4:53
+26-Jul-2025 18:18:39.021 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 8.8.8.8
+26-Jul-2025 18:18:39.022 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:215 - DNS Server is: 8.8.4.4
+26-Jul-2025 18:18:39.099 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:234 - Registered cache, resolver and search paths as DNSJava defaults
+26-Jul-2025 19:25:43.522 ERROR [RemoteDelivery-Process-38] org.apache.james.dnsservice.library.MXHostAddressIterator.<init>:86 - Couldn't resolve IP address for discovered host ..

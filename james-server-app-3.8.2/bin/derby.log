@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Aug 12 12:27:04 PKT 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0198-9d2c-eeb5-00000462ffa0 
+on database directory D:\projects\DHL Visitor Notification\james-server-app-3.8.2\var\store\derby with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@18b4aac2 
+Loaded from file:/D:/projects/DHL%20Visitor%20Notification/james-server-app-3.8.2/lib/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=24.0.1+9-30
+user.dir=D:\projects\DHL Visitor Notification\james-server-app-3.8.2\bin
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
